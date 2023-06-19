@@ -6,7 +6,7 @@
 /*   By: kgoncalv <kaykegy@proton.me>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 18:14:39 by kgoncalv          #+#    #+#             */
-/*   Updated: 2023/06/18 11:29:52 by kgoncalv         ###   ########.fr       */
+/*   Updated: 2023/06/18 21:24:45 by kgoncalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,10 @@ void *ft_memset(void *ptr, int value, size_t num)
 {
     unsigned char *p = (unsigned char *)ptr; // Conversão do ponteiro para o tipo apropriado
 
-    while (num > 0)
+    while (num--)
     {
         *p = (unsigned char)value; // Atribuição do valor ao byte atual
         p++; // Avançar para o próximo byte
-        num--; // Decrementar o número de bytes restantes
     }
     return ptr; // Retornar o ponteiro para o bloco de memória preenchido
 }

@@ -6,7 +6,7 @@
 /*   By: kgoncalv <kaykegy@proton.me>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 11:30:49 by kgoncalv          #+#    #+#             */
-/*   Updated: 2023/06/18 11:37:50 by kgoncalv         ###   ########.fr       */
+/*   Updated: 2023/06/18 21:24:30 by kgoncalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,10 @@ void ft_bzero(void *ptr, size_t num)
 {
     unsigned char *p = (unsigned char *)ptr;
     
-    while (num > 0)
+    while (num--)
     {
         *p = 0;
         p++;
-        num--;
     }
 }
 
