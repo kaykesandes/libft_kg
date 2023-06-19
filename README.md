@@ -9,7 +9,7 @@ Projeto libft42sp
 • memmove
 • memchr
 • memcmp
-• strlen
+• strlen --
 • strdup
 • strcpy
 • strncpy
@@ -22,7 +22,7 @@ Projeto libft42sp
 • strnstr
 • strcmp
 • strncmp
-• atoi
+• atoi 
 • isalpha
 • isdigit
 • isalnum
