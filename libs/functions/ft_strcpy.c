@@ -1,32 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kgoncalv <kaykegy@proton.me>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/19 12:03:02 by kgoncalv          #+#    #+#             */
-/*   Updated: 2023/06/23 14:29:07 by kgoncalv         ###   ########.fr       */
+/*   Created: 2023/06/23 14:02:17 by kgoncalv          #+#    #+#             */
+/*   Updated: 2023/06/23 15:18:11 by kgoncalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(char *restrict dest, const char *src)
+#include <stdio.h>
+
+char ft_strlen(char *dest, char *src)
 {
-    int x = 0;
-    while (src[x] != '\0')
-    {
-        x++;
-        dest[x] = src[x];
-    }
-    dest[x] = '\0'
-    return (x);
+  int x = 0;
+  while (src[x] != '\0')
+  {
+    x++;
+    dest[x] = src[x];
+  }
+  dest[x] = '\0';
+  return (dest[]);
 }
 
 int main(void)
 {
-  int array[] = "";
-  int arrar_src[] = "teste";
+  char *array = "";
+  char *arrar_src = "teste";
 
-  int x = 0;
   printf("%s", ft_strlen(array, arrar_src));
 }
