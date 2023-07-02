@@ -8,6 +8,7 @@ SRC = ft_bzero.c    ft_memchr.c  ft_memcpy.c \
 	  ft_strrchr.c ft_strrchr.c ft_strstr.c\
 	  ft_strncmp.c ft_strnstr.c	ft_atoi.c\
 	  ft_strcmp.c ft_isalpha.c ft_isdigit.c\
+	  ft_isalnum.c \
 
 OBJS = ${SRC:.c=.o}
 CC = cc 
