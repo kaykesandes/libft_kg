@@ -18,10 +18,10 @@ Projeto libft
 • strchr --
 • strrchr--
 • strstr --
-• strnstr--
-• strcmp 
+• strnstr  --
+• strcmp --
 • strncmp --
-• atoi 
+• atoi    --
 • isalpha 
 • isdigit
 • isalnum
