@@ -16,7 +16,7 @@ Projeto libft
 • strncat--
 • strlcat--
 • strchr --
-• strrchr
+• strrchr--
 • strstr
 • strnstr
 • strcmp
