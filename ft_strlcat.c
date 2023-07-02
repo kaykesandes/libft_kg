@@ -17,14 +17,14 @@ size_t  ft_strlcat(char *dest, const char *src, size_t size)
     return total_len;
 }
 
-int main() {
-    char dest[20] = "Hello, ";
-    const char *src = "World!";
-    size_t size = sizeof(dest);
+// int main() {
+//     char dest[20] = "Hello, ";
+//     const char *src = "World!";
+//     size_t size = sizeof(dest);
     
-    size_t result = ft_strlcat(dest, src, size);
-    printf("String concatenada: %s\n", dest);
-    printf("tamanho total: %zu \n", result);
+//     size_t result = ft_strlcat(dest, src, size);
+//     printf("String concatenada: %s\n", dest);
+//     printf("tamanho total: %zu \n", result);
 
-    return 0;
-}
+//     return 0;
+// }
