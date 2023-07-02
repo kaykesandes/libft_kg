@@ -5,11 +5,11 @@ Projeto libft
 • bzero--
 • memcpy--
 • memccpy--
-• memmove
-• memchr
-• memcmp
-• strlen 
-• strdup
+• memmove--
+• memchr--
+• memcmp--
+• strlen--
+• strdup--
 • strcpy--
 • strncpy
 • strcat
