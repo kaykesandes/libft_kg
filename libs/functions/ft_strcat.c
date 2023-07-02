@@ -3,9 +3,7 @@ char *ft_strcat(char *dest, const char *src) {
 
     while (dest[i] != '\0')
         i++;
-
     while ((dest[i++] = *src++));
-
     return dest;
 }
 
