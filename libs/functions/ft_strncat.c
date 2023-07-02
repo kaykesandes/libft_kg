@@ -1,9 +1,10 @@
 #include <stddef.h>
 // #include <stdio.h>
-// #include <string.h>
+
 char    *ft_strncat(char *dest, const char *src, size_t n)
 {
-    unsigned int i, m = 0;
+    unsigned int i = 0;
+    unsigned int m = 0;
 
     while (dest[i] != '\0')
         i++;
