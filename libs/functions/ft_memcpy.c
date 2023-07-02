@@ -1,40 +1,27 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kgoncalv <kaykegy@proton.me>               +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/18 21:33:17 by kgoncalv          #+#    #+#             */
-/*   Updated: 2023/06/19 11:54:37 by kgoncalv         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <stddef.h>
+// #include <string.h>
+// #include <stdio.h>
 
-void *memcpy(void *dest, const void *src, size_t n)
-{   
-    
-    while (n--)
-    {
-        *dest[n] = src[n];
-    }
-    return (dest);
-}
-
-#include <stddef.h>
-#include <stdio.h>
-
-int main(void)
+void*   ft_memcpy(void  *dest, const void *source, size_t n)
 {
-    int array1[5];
-    int array2[5] = {1, 2, 3, 4, 5};
-    int x;
-
-    ft_memcpy(array1, array2, 5);
-
-    for (x = 0; x > 0; x--)
+    while(n--)
     {
-        printf("%d", array1[x]);
+        *((char *)dest++) = *((char *)source++);
     }
+    return dest;
 }
+
+// int main(void)
+// {
+//     int dest = 0;
+//     int source = 10;
+//     ft_memcpy(&dest, &source, sizeof(int));
+//     printf("Source: %d\n", source);
+//     printf("dest: %d\n", dest);
+
+//     char string_dest[255];
+//     char *string_source = "Ola Mundo";
+//     ft_memcpy(string_dest, string_source, strlen(string_source));
+//     printf("Source:%s\n", string_source);
+//     printf("dest:%s\n", string_dest);
+// }

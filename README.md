@@ -1,17 +1,16 @@
-# libft-42
-Projeto libft42sp
+# libft
+Projeto libft
 
-
-• memset --
-• bzero  --
-• memcpy
-• memccpy
+• memset--
+• bzero--
+• memcpy--
+• memccpy--
 • memmove
 • memchr
 • memcmp
-• strlen --
+• strlen 
 • strdup
-• strcpy
+• strcpy--
 • strncpy
 • strcat
 • strncat
@@ -23,7 +22,7 @@ Projeto libft42sp
 • strcmp
 • strncmp
 • atoi 
-• isalpha
+• isalpha 
 • isdigit
 • isalnum
 • isascii

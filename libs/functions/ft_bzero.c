@@ -1,44 +1,26 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kgoncalv <kaykegy@proton.me>               +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/18 11:30:49 by kgoncalv          #+#    #+#             */
-/*   Updated: 2023/06/18 21:24:30 by kgoncalv         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-// #include <string.h>
-// #include <stddef.h>
+#include <stddef.h>
 // #include <stdio.h>
-
-void ft_bzero(void *ptr, size_t num)
+void ft_bzero(void* buffer, size_t len)
 {
-    unsigned char *p = (unsigned char *)ptr;
-    
-    while (num--)
+    unsigned char* a = buffer;
+    while(len--)
     {
-        *p = 0;
-        p++;
+        *a++ = 0;
     }
 }
-
-// int main() {
-//     char str[10];
-//     size_t num_elements = sizeof(str);
-//     char ft_str[10];
-//     size_t ft_num_elements = sizeof(ft_str);
-//     bzero(str, num_elements);
-//     ft_bzero(ft_str, ft_num_elements);
-//     for (size_t i = 0; i < num_elements; i++) {
-//         printf("%d ", str[i]);
-//     }
-//     printf("\n");
-//     for (size_t i = 0; i < ft_num_elements; i++) {
-//         printf("%d ", str[i]);
-//     }
-//     printf("\n");
-//     return 0;
+// int main(void)
+// {
+//     char buff[20] = "Ola Mundo";
+//     printf("%s\n", buff);
+//     ft_bzero(buff, sizeof(buff));
+//     printf("%s\n", buff);
 // }
+
+/*
+    A função bzero deve prencher com 0 na memoria
+    buffer, e local que vai ser limpado na memoria
+    len o tamanho da memoria
+    ele percorre o com while(len--)
+    aponta 0 para valor d a que e igual ao buffer
+    assim ele incremeta mais 1
+*/
