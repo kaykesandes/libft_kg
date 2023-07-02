@@ -23,7 +23,7 @@ Projeto libft
 • strncmp --
 • atoi    --
 • isalpha --
-• isdigit
+• isdigit --
 • isalnum
 • isascii
 • isprint
