@@ -11,11 +11,11 @@ Projeto libft
 • strlen--
 • strdup--
 • strcpy--
-• strncpy
-• strcat
-• strncat
-• strlcat
-• strchr
+• strncpy--
+• strcat--
+• strncat--
+• strlcat--
+• strchr --
 • strrchr
 • strstr
 • strnstr

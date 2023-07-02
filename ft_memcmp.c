@@ -1,5 +1,5 @@
-#include <stddef.h>
-//#include <stdio.h>
+#include "libft.h"
+// #include <stdio.h>
 
 int ft_memcmp(const void *ptr1, const void *ptr2, size_t num)
 {
