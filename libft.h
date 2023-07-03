@@ -40,7 +40,7 @@ char    *ft_strcpy(char *s1, char *s2);
 
 char    *ft_strdup(const char *str);
 
-size_t     ft_strlcat(char *dest, const char *src, size_t size);
+size_t    ft_strlcat(char *dest, const char *src, size_t size);
 
 char    *ft_strncat(char *dest, const char *src, size_t n);
 
