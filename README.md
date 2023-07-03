@@ -24,8 +24,8 @@ Projeto libft
 • atoi    --
 • isalpha --
 • isdigit --
-• isalnum 
-• isascii 
-• isprint 
-• toupper 
+• isalnum --
+• isascii --
+• isprint --
+• toupper --
 • tolower 
