@@ -120,3 +120,5 @@ Let me know if there's anything else I can help you with!
 - Following that, there are some useful macros defined, such as `TRUE` and `FALSE` to represent boolean values, `INT_MAX` and `INT_MIN` to represent the maximum and minimum values of an integer, `ULONG_MAX` to represent the maximum value of an unsigned long, and `NULL_BYTE` to represent the size of a null byte (`'\0'`).
 - Then, the function prototypes for the library functions are declared, such as `ft_strlen`, `ft_strncat`, `ft_bzero`, and so on. Each prototype specifies the return type of the function and the expected parameters.
 - Finally, the `#endif` directive is used to close the `#ifndef`/`#define` structure, ending the header file's definition.
+
+## Para leitura do README em pt_Br leia o arquivo Readme_pt.md
