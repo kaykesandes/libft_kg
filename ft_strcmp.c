@@ -1,4 +1,5 @@
 #include "libft.h"
+#include <stdio.h>
 
 int ft_strcmp(const char *s1, const char *s2)
 {
@@ -13,18 +14,18 @@ int ft_strcmp(const char *s1, const char *s2)
     return 0;
 }
 
-// int main(void)
-// {
-//     char str1[] = "Ola";
-//     char str2[] = "Ola";
+int main(void)
+{
+    char str1[] = "Olaa";
+    char str2[] = "Ola";
 
-//     int result = ft_strcmp(str1, str2);
+    int result = strcmp(str1, str2);
     
-//     if (result == 0)
-//         printf("%d %s %s \n", ft_strcmp(str1, str2), str1, str2);
-//     else if(result < 0)
-//         printf("%d %s %s \n", ft_strcmp(str1, str2), str1, str2);
-//     else
-//         printf("%d %s %s \n", ft_strcmp(str1, str2), str1, str2);
+    if (result == 0)
+        printf("%d %s %s \n", ft_strcmp(str1, str2), str1, str2);
+    else if(result < 0)
+        printf("%d %s %s \n", ft_strcmp(str1, str2), str1, str2);
+    else
+        printf("%d %s %s \n", ft_strcmp(str1, str2), str1, str2);
 
-// }   
+}   
