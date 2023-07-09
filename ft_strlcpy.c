@@ -29,10 +29,10 @@ size_t ft_strlcpy(char *dst, const char *src, size_t size)
 }
 
 
-int main(void)
-{
-    char src[] = {"REFERENCIA"};
-    char dst[11];
+// int main(void)
+// {
+//     char src[] = {"REFERENCIA"};
+//     char dst[11];
 
-    printf("%zu \n%s", ft_strlcpy(dst, src, sizeof(dst)), dst);
-}
+//     printf("%zu \n%s", ft_strlcpy(dst, src, sizeof(dst)), dst);
+// }

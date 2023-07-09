@@ -72,4 +72,6 @@ int     ft_toupper(int c);
 
 int     ft_tolower(int c);
 
+size_t ft_strlcpy(char *dst, const char *src, size_t size);
+
 #endif
